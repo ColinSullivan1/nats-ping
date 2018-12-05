@@ -1,6 +1,6 @@
 # nats-ping
 
-A simple ping utility for NATS utilizing a variety of authentication schemes
+A simple ping utility for NATS supporting a variety of authentication schemes
 
 ## Usage
 
@@ -15,3 +15,11 @@ Connect locally using a username/password
 
 Connect locally with no authentication
 `nats-ping`
+
+## Output
+
+```text
+MacBook-Pro:nats-ping colinsullivan$ ./nats-ping
+5126-02-08 14:02:55.13: Connect time: 2.543559ms.
+5126-02-08 14:02:55.13: Ping time:    182.664µs.
+```
